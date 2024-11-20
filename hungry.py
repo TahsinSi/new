@@ -1,11 +1,1 @@
-from collections import deque
-
-
-container=deque()
-str='every soul shall test death'
-
-for i in str:
-    container.append(i)
-
-while container:
-    print(container.pop(),end='')
+print("i need to wait to eat. UNTIL I get the food of my own , i can't eat")
