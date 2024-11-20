@@ -1,7 +1,11 @@
+from collections import deque
 
-input=input('what i am hungry for?')
 
-if input=='inside fight':
-    print('wait for someone')
-else:
-    print('have fait in Allah')
+container=deque()
+str='every soul shall test death'
+
+for i in str:
+    container.append(i)
+
+while container:
+    print(container.pop(),end='')
